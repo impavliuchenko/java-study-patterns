@@ -6,7 +6,5 @@ public class BuildWebsiteRunner {
         director.setBuilder(new VisitCardWebsiteBuilder());
         Website website = director.buildWebsite();
         System.out.println(website);
-
     }
-
 }

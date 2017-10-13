@@ -6,7 +6,7 @@ public class Program {
         Developer developer = developerFactory.createDeveloper();
         developer.writeCode();
     }
-
+    //creating instance based on the developer's speciality
     static DeveloperFactory createDeveloperBySpeciality(String speciality){
         if (speciality.equalsIgnoreCase("Java"))  return new JavaDeveloperFactory();
         else if (speciality.equalsIgnoreCase("C++")) return new CppDeveloperFactory();
